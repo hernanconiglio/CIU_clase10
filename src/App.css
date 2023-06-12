@@ -1,3 +1,6 @@
+/*voy a importar una fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 .App {
   text-align: center;
 }
@@ -35,4 +38,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+#logoV {
+  width: 20%;
+  height: 20%;
+  max-width: 200px;
+  min-width: 100px;
+  margin-bottom: 20px;
+
+}
+
+#titulo {
+  font-weight: bold;
+  color: #760825;
+  font-size: 40px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#badge {
+  padding: 10px;
 }
